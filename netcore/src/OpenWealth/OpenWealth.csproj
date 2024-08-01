@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <Description>A library generated from a OpenAPI doc</Description>
+    <Copyright>No Copyright</Copyright>
+    <Authors>OpenAPI</Authors>
+    <TargetFramework>net6.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <Version>1.0.0</Version>
+    <Nullable>annotations</Nullable>
+    <AssemblyName>OpenWealth</AssemblyName>
+    <PackageId>OpenWealth</PackageId>
+    <UserSecretsId>2a06d63e-a179-456f-bcc4-364468e47241</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../OpenWealth.Models/OpenWealth.Models.csproj"/>
+    <PackageReference Include="JsonSubTypes" Version="1.8.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <!--<DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.0" />-->
+  </ItemGroup>
+</Project>
